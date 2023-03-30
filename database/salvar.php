@@ -5,8 +5,9 @@ include '../database/conexao.php';
 // Insere os dados no banco de dados
 $nome = $_POST["nome"];
 $email = $_POST["email"];
+$status = $_POST["status"];
 
-$sql = "INSERT INTO teste (nome, email) VALUES ('$nome', '$email')";
+$sql = "INSERT INTO teste (nome, email, status) VALUES ('$nome', '$email', '$status')";
 
 if ($conn->query($sql) === TRUE) {
     
