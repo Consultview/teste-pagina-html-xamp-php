@@ -21,6 +21,7 @@
         <th>ID</th>
         <th>Nome</th>
         <th>Email</th>
+        <th>Status</th>
       </tr>
     </thead>
     <tbody>
@@ -29,8 +30,16 @@ include('../database/consulta.php');
 ?>
 </tbody>
 </table>
+<?php
+include('../layout/grafico.php');
+?>
 </div>
-<!-----------------------------------------------------------------
+
+
+	
+  
+
+	
 
 </body>
 </html>
